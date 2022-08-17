@@ -32,9 +32,7 @@ const Home = () => {
                 <>
                     <p>{books.map((book) => (
                         <>
-                            {/* <p>{book.title}</p>
-                            <img src={book.image} width="100px" alt={book.title}/> */}
-                            <Book book={book} />
+                            <Book key={book.isbn} book={book} />
                         </>
                     ))}</p>
                 </>)

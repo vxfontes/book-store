@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Container, Button, Typography, Modal, Fade, Box } from '@mui/material';
+import { Container, Button, Typography, Modal, Fade, Box, Backdrop } from '@mui/material';
 
 // local
 import styles from './styles';
